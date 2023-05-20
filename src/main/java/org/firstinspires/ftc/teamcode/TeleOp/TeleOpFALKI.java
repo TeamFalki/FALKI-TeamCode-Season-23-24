@@ -10,16 +10,17 @@ final ElapsedTime runtime = new ElapsedTime();
 
     public void runOpMode() {
 
-        // define motors
+        //Define motors
 
         //Set motor directions
+
 
 
         telemetry.addData("Status", "Initialized");
         telemetry.update();
         waitForStart();
 
-
+        //Here comes the program itself
 
     }
 }
