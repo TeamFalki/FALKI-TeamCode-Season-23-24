@@ -10,7 +10,9 @@ public class TeleOpFALKI extends LinearOpMode {
     @Override
     public void runOpMode() {
 
+        // define motors
 
+        //Set motor directions
 
     }
 }
