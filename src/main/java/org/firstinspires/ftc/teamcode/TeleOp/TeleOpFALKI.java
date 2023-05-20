@@ -6,14 +6,20 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 
 @TeleOp(name="TeleOpFALKI", group = "FALKI-TeleOp")
 public class TeleOpFALKI extends LinearOpMode {
-final ElapsedTime
+final ElapsedTime runtime = new ElapsedTime();
 
-    @Override
     public void runOpMode() {
 
         // define motors
 
         //Set motor directions
+
+
+        telemetry.addData("Status", "Initialized");
+        telemetry.update();
+        waitForStart();
+
+
 
     }
 }
